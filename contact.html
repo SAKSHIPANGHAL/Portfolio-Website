@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Portfolio</title>
+    <link rel="stylesheet" href="script.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Portfolio</a>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class='bx bx-menu'></i>
+        </div>
+        <nav class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Skill</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </nav>
+    </header>
+    <section class="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact <span>Me</span></h1>
+            <p>If you have any questions, would like to discuss a project, or simply want to connect, feel free to reach out to me. I am always open to new opportunities and collaborations. Fill out the form below or use the contact information provided. I look forward to hearing from you!</p>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form action="contact.php" method="post">
+                        <div class="input-box">
+                            <input type="text" name="name" required>
+                            <label>Name</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="email" name="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-box">
+                            <textarea name="message" required></textarea>
+                            <label>Message</label>
+                        </div>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p>You can also reach me directly through the following contact details:</p>
+                    <ul>
+                        <li><i class='bx bx-map'></i> Address: 1234 Dadri Toye, Jhajjar, India</li>
+                        <li><i class='bx bx-phone'></i> Phone: +9538817467</li>
+                        <li><i class='bx bx-envelope'></i> Email: <a href="mailto:sakshipanghal86@gmail.com">sakshipanghal86@gmail.com</a></li>
+                    </ul>
+                    <p>Feel free to connect with me on social media:</p>
+                    <div class="contact-sci">        
+                <a href="https://github.com/SAKSHIPANGHAL "target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/yourprofile" target="_blank"><i class='bx bxl-instagram'></i></a> <!-- Replace with your Instagram profile link -->
+                <a href="https://www.linkedin.com/in/sakshi-panghal-a569aa254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin'></i></a> <!-- Replace with your LinkedIn profile link -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
